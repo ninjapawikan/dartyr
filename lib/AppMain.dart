@@ -18,8 +18,8 @@ class AppMain extends PolymerElement {
   attached() {
     super.attached();
     drawerPanel = $['main-drawer-panel'] as CoreDrawerPanel; 
-    shadowRoot.querySelector("#navicon").on['tap'].listen(
-        (event) => toggleDrawer());
+//    shadowRoot.querySelector("#navicon").on['tap'].listen(
+//        (event) => toggleDrawer());
   }
   
   void toggleDrawer(){
